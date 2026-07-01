@@ -16,7 +16,7 @@ def callback():
         "client_id": APP_ID,
         "client_secret": APP_SECRET,
         "grant_type": "authorization_code",
-        "redirect_uri": "https://memes-auth.onrender.com",
+        "redirect_uri": request.base_url,,
         "code": code
     })
     
