@@ -16,7 +16,7 @@ def callback():
         "client_id": APP_ID,
         "client_secret": APP_SECRET,
         "grant_type": "authorization_code",
-        "redirect_uri": request.base_url,,
+        "redirect_uri": request.base_url,
         "code": code
     })
     
